@@ -17,10 +17,12 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
+let posts = [];
 
 app.get("/", function(req, res) {
   res.render("home", {
-    homeStartingContent: homeStartingContent
+    homeStartingContent: homeStartingContent,
+    posts: posts
   });
 });
 
@@ -41,7 +43,12 @@ app.get("/compose", function(req, res) {
 });
 
 app.post("/compose", function(req, res) {
-  console.log(req.body.input);
+   const post = {
+    input: req.body.input,
+    post: req.body.post
+  };
+  posts.push(post);
+  res.redirect("/");
 });
 
 
