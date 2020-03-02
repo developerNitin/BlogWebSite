@@ -2,7 +2,6 @@
 
 
 
-
 <h1 class="heading"> home </h1>
 <p><%= homeStartingContent %></p>
 
@@ -21,11 +20,11 @@
 
 <% } %>
 
-
-<form action="/" method="post">
-  <button class="btn btn-warning resetbtn" type="submit" name="reset"> Reset </button>
-</form>
-
+<% if(posts.length != 0) { %>
+  <form action="/" method="post">
+    <button class="btn btn-warning resetbtn" type="submit" name="reset"> Reset </button>
+  </form>
+<% } %>
 
 
 

@@ -20,8 +20,7 @@ app.use(express.static("public"));
 
 let posts = [];
 
-
-
+// ----------> app.get
 
 app.get("/", function(req, res) {
   res.render("home", {
@@ -71,10 +70,19 @@ app.get("/reset", function(req, res) {
 });
 
 
+app.get("/signin", function(req, res) {
+  res.render("signin");
+});
 
+// ----------> app.post
 
 app.post("/", function(req, res) {
   res.redirect("/reset");
+});
+
+
+app.post("/signin", function(req, res) {
+  res.redirect("/signin");
 });
 
 
@@ -95,6 +103,10 @@ app.post("/reset", function(req, res) {
   } else if(req.body.resetbtn === "no") {
     res.redirect("/");
   }
+  res.redirect("/");
+});
+
+app.post("/back", function(req, res) {
   res.redirect("/");
 });
 
