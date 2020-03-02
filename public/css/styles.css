@@ -59,17 +59,21 @@
 }
 
 .btnsignin {
-  padding: 15px 25px;
-  margin-top: 3px;
-  font-size: 12px;
+  padding: 10px 20px;
+  margin: 4px 0 0 7px;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
   border-style: double;
   border-radius: 2px;
   border-color: #a6b1e1;
-  background-color: white;
+  background-color: #fff;
+  color: #848DB4;
 }
 
 .btnsignin:hover {
   background-color: #a6b1e1;
+  color: white;
+  border-color: #fff;
 }
 
 /* :------> heading */
