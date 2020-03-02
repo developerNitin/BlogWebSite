@@ -31,6 +31,16 @@ app.get("/", function(req, res) {
 });
 
 
+app.get("/reset", function(req, res) {
+});
+
+
+app.post("/reset", function(req, res) {
+  posts = [];
+  res.render("reset");
+});
+
+
 app.get("/about", function(req, res) {
   res.render("about", {
     aboutContent: aboutContent
