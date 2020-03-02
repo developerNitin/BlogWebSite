@@ -31,16 +31,6 @@ app.get("/", function(req, res) {
 });
 
 
-app.get("/reset", function(req, res) {
-});
-
-
-app.post("/reset", function(req, res) {
-  posts = [];
-  res.render("reset");
-});
-
-
 app.get("/about", function(req, res) {
   res.render("about", {
     aboutContent: aboutContent
@@ -76,6 +66,16 @@ app.get("/post/:posts", function(req, res) {
 });
 
 
+app.get("/reset", function(req, res) {
+  res.render("reset");
+});
+
+
+
+
+app.post("/", function(req, res) {
+  res.redirect("/reset");
+});
 
 
 app.post("/compose", function(req, res) {
@@ -88,12 +88,16 @@ app.post("/compose", function(req, res) {
 });
 
 
+app.post("/reset", function(req, res) {
+  console.log(req.body.resetbtn);
+  res.redirect("/");
+});
 
 
 
 
 
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("Server started on port 3000");
 });
