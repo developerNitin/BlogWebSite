@@ -53,3 +53,27 @@
   margin-top: 20px;
   padding: 10px 30px;
 }
+
+.resetbtn {
+  margin: 20px 0;
+}
+
+.btnsignin {
+  padding: 15px 25px;
+  margin-top: 3px;
+  font-size: 12px;
+  border-style: double;
+  border-radius: 2px;
+  border-color: #a6b1e1;
+  background-color: white;
+}
+
+.btnsignin:hover {
+  background-color: #a6b1e1;
+}
+
+/* :------> heading */
+
+.heading {
+  margin: 20px 0;
+}

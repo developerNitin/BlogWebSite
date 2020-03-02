@@ -89,7 +89,12 @@ app.post("/compose", function(req, res) {
 
 
 app.post("/reset", function(req, res) {
-  console.log(req.body.resetbtn);
+  if (req.body.resetbtn === "yes") {
+    posts = [];
+    res.redirect("/");
+  } else if(req.body.resetbtn === "no") {
+    res.redirect("/");
+  }
   res.redirect("/");
 });
 
