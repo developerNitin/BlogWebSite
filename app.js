@@ -74,6 +74,11 @@ app.get("/signin", function(req, res) {
   res.render("signin");
 });
 
+
+app.get("/signup", function(req, res) {
+  res.render("signup");
+});
+
 // ----------> app.post
 
 app.post("/", function(req, res) {

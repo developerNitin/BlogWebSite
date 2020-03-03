@@ -6,7 +6,7 @@
 }
 
 .middle-container {
-  min-height: 620px;
+  min-height: 590px;
   margin-bottom: 50px
 }
 
@@ -127,4 +127,19 @@
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.dont-hav-an-acc {
+  color: #848DB4;
+  font-size: 12px;
+}
+
+.dont-hav-an-acc:hover {
+  color: #848DB4;
+}
+
+/* :------> signup */
+
+.form-signup-heading {
+  font-size: 30px;
 }
