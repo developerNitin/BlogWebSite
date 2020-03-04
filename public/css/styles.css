@@ -6,19 +6,23 @@
 }
 
 .middle-container {
-  min-height: 590px;
+  height: 650px;
   margin-bottom: 50px
 }
 
 /* :------> navbar */
+/* 
+.navbar-btn {
+  border: 1px;
+  border-color: red;
+} */
 
 .navbar-brand {
   color: #959FCA !important;
 }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -72,6 +76,8 @@
   border-color: #a6b1e1;
   background-color: #fff;
   color: #848DB4;
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
 
 .btnsignin:hover {

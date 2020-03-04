@@ -14,11 +14,12 @@
   <%= posts[i].post.substring(0, 100) %>
   <a href="/post/<%= posts[i].input %>">read more.</a>
   <% } else { %>
-  <%= posts[i].post + "."%>
+  <%= posts[i].post %>
   <% } %>
 </p>
 
 <% } %>
+
 
 <% if(posts.length != 0) { %>
   <form action="/" method="post">
