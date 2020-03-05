@@ -11,7 +11,7 @@
 }
 
 /* :------> navbar */
-/* 
+/*
 .navbar-btn {
   border: 1px;
   border-color: red;
@@ -19,6 +19,10 @@
 
 .navbar-brand {
   color: #959FCA !important;
+  margin-top: 9px;
+  font-size: 25px;
+  padding-right: 0;
+  letter-spacing: 4px;
 }
 
 .navbar {
@@ -29,6 +33,14 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
+
+.navbar-nav  li a {
+    border-radius: 2px;
+    padding-right: 0;
+    font-size: 10px;
+
+}
+
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
@@ -78,6 +90,7 @@
   color: #848DB4;
   letter-spacing: 3px;
   margin-top: 10px;
+  float: right;
 }
 
 .btnsignin:hover {
