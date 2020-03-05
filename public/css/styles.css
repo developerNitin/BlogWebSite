@@ -1,12 +1,11 @@
 /* :------> container */
-
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
 .middle-container {
-  min-height: 300px;
+  min-height: 297px;
 }
 
 .container {
@@ -17,6 +16,10 @@
 /* :------> navbar */
 .N {
   color: blue !important;
+}
+
+.B {
+  color: #767ea2 !important;
 }
 
 .navbar-brand {
@@ -62,35 +65,21 @@
 }
 
 /* :------> button */
-.yes-btn {
-  padding: 10px 30px;
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
-.no-btn {
-  margin-top: 20px;
-  padding: 10px 30px;
-}
-
-.btnsignin {
-  padding: 10px 20px;
+.btn-signin {
+  padding: 10px 0px;
   margin: 12px 0 0 7px;
-  font-size: 14px;
+  font-size: 17px;
   font-family: Roboto, Arial, sans-serif;
-  border-style: double;
-  border-radius: 2px;
-  border-color: #a6b1e1;
-  background-color: #fff;
-  color: #848DB4;
+  border-style: none;
+  background-color: inherit;
+  color: #a6b1e1;
   letter-spacing: 3px;
   float: right;
 }
 
-.btnsignin:hover {
-  background-color: #a6b1e1;
-  color: white;
-  border-color: #fff;
+.btn-signin:hover {
+  background-color: inherit;
+  color: #848db4;
 }
 
 .btn-li {
@@ -98,7 +87,6 @@
 }
 
 /* :------> home */
-
 .about-div {
   background-color: rgb(248, 248, 248);
 }
@@ -107,6 +95,7 @@
   margin: 20px 0 50px 0;
   text-align: center;
   letter-spacing: 3px;
+  color: #848db4;
 }
 
 .sub-heading {
@@ -126,7 +115,6 @@
 }
 
 /* :------> home-navbar */
-
 .explore-txtarea {
   width: 170px;
   height: 40px;
@@ -153,12 +141,11 @@
   margin-left: -40px;
 }
 
-
 /* :------> signin */
 .form-signin {
   max-width: 330px;
   padding: 15px;
-  margin: 0 auto;
+  margin: 150px auto 230px auto !important;
 }
 
 .form-signin .form-signin-heading,
@@ -205,11 +192,31 @@
   color: #848DB4;
 }
 
+.btn-form-signin {
+  padding: 10px 0px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  border-style: double;
+  background-color: white;
+  border-color: #848DB4;
+  border-radius: 2px;
+  color: #848DB4;
+  letter-spacing: 3px;
+  float: right;
+  border-width: thin;
+}
+
+.btn-form-signin:hover {
+  background-color: #848DB4;
+  border-color: white;
+  color: white;
+}
+
 /* :------> signup */
 .form-signup-heading {
   font-size: 30px;
 }
-
 
 .explore-search-btn:hover {
   color: #848DB4;
@@ -237,7 +244,7 @@
   color: #848DB4;
   border-radius: 2px;
   letter-spacing: 3px;
-  margin: 70px auto;
+  margin: 73px auto 74px auto;
   height: 45px;
   width: 110px;
   border-radius: 100px;
@@ -259,4 +266,60 @@
 
 .post {
   border-color: #848DB4;
+}
+
+/* -------> reset */
+.reset-form-div {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 156px;
+}
+
+.reset-form-div i {
+  font-size: 160px;
+  color: #f7d695;
+  opacity: 0.7;
+}
+
+.reset-form-div p {
+  font-size: 20px;
+  color: #424874;
+  margin-bottom: 40px;
+}
+
+.reset-heading {
+  color: #424874;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+
+.reset-div {
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+.yes-btn, .no-btn {
+  font-size: 19px;
+  font-family: Roboto, Arial, sans-serif;
+  border-style: double;
+  border-color: #a6b1e1;
+  background-color: #fff;
+  color: #848DB4;
+  letter-spacing: 3px;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.yes-btn:hover {
+  background-color: #fd5e53;
+  border-color: white;
+  color: white;
+}
+
+.no-btn:hover {
+  background-color: #94d3ac;
+  border-color: white;
+  color: white;
 }
