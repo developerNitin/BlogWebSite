@@ -30,16 +30,9 @@ app.get("/", function(req, res) {
 });
 
 
-app.get("/about", function(req, res) {
-  res.render("about", {
+app.get("/support", function(req, res) {
+  res.render("support", {
     aboutContent: aboutContent
-  });
-});
-
-
-app.get("/contact", function(req, res) {
-  res.render("contact", {
-    supportContent: supportContent
   });
 });
 
@@ -77,6 +70,10 @@ app.get("/signin", function(req, res) {
 
 app.get("/signup", function(req, res) {
   res.render("signup");
+});
+
+app.get("/explore", function(req, res) {
+  res.render("explore");
 });
 
 // ----------> app.post

@@ -1,13 +1,12 @@
 /* :------> container */
-
 .about-div {
   background-color: rgb(248, 248, 248);
   height: 500px
 }
 
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .middle-container {
@@ -26,7 +25,6 @@
   border: 1px;
   border-color: red;
 } */
-
 .navbar-brand {
   color: #959FCA !important;
   margin-top: 9px;
@@ -36,42 +34,40 @@
 }
 
 .navbar {
-    padding-bottom: 0px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+  padding-bottom: 0px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
 
-.navbar-nav  li a {
-    margin-top: 10px;
-    padding-right: 0;
-    font-size: 10px;
+.navbar-nav li a {
+  margin-top: 10px;
+  padding-right: 0;
+  font-size: 10px;
 }
 
-.navbar-nav  li a:hover {
-    color: black !important;
+.navbar-nav li a:hover {
+  color: black !important;
 }
 
 /* :------> footer */
-
 .footer {
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 120px;
-	background-color: #a6b1e1;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #a6b1e1;
 }
 
 .footer p {
-	padding-top: 25px;
-	font-size: 12px;
+  padding-top: 25px;
+  font-size: 12px;
   color: #fff;
 }
 
 /* :------> button */
-
 .yes-btn {
   padding: 10px 30px;
   margin-top: 20px;
@@ -89,7 +85,7 @@
 
 .btnsignin {
   padding: 10px 20px;
-  margin: 15px 0 0 7px;
+  margin: 12px 0 0 7px;
   font-size: 14px;
   font-family: Roboto, Arial, sans-serif;
   border-style: double;
@@ -110,14 +106,13 @@
 .btn-li {
   float: right;
 }
-/* :------> heading */
 
+/* :------> heading */
 .heading {
   margin: 20px 0;
 }
 
 /* :------> signin */
-
 .form-signin {
   max-width: 330px;
   padding: 15px;
@@ -169,24 +164,23 @@
 }
 
 /* :------> signup */
-
 .form-signup-heading {
   font-size: 30px;
 }
 
 /* :------> home-navbar */
-
 .explore-txtarea {
-  width: 200px;
+  width: 170px;
   height: 40px;
-  border-radius: 20px;
-  border-style: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   text-align: start;
   font-size: 15px;
   border-style: double;
   border-color: #a6b1e1;
-  padding-left: 10px;
-  margin-right: 15px
+  padding-left:15px;
+  outline: none;
+  resize: none;
 }
 
 .explore-area {
@@ -194,12 +188,20 @@
 }
 
 .explore-search-btn {
-  padding: 5px;
-  position: absolute;
+  padding: 0 10px 0 2px;
   border-style: none;
   height: 40px;
-  background-color: inherit;
-  margin-left: 167px;
+  background-color: #fff;
   font-size: 15px;
   color: #a6b1e1;
+  border-color: #a6b1e1;
+  border-style: double;
+  border-left-style: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -11px;
+}
+
+.explore-search-btn:hover {
+  color: #848DB4;
 }
