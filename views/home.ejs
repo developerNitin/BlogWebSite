@@ -3,19 +3,19 @@
 
 <div class="about-div">
   <div class="container">
-    <h1 class="heading"> NitinBlog </h1>
-    <p><%= homeStartingContent %></p>
+    <h1 class="heading"><i class="N fab fa-neos"></i>itin<i class="B fab fa-bootstrap"></i>log</h1>
+    <p class="heading-para"> ><%= homeStartingContent %></p>
   </div>
 </div>
 
 <div class="container middle-container">
 
 <% for(var i = 0; i < posts.length; i++) { %>
-<h1 class="heading"> <%= posts[i].input %> </h1>
+<h1 class="sub-heading"> <%= posts[i].input %> </h1>
 
-<p>
-  <% if(posts[i].post.length > 100) { %>
-  <%= posts[i].post.substring(0, 100) %>
+<p class="sub-para">
+  <% if(posts[i].post.length > 300) { %>
+  <%= posts[i].post.substring(0, 300) %>
   <a href="/post/<%= posts[i].input %>">read more.</a>
   <% } else { %>
   <%= posts[i].post %>
@@ -26,9 +26,11 @@
 
 
 <% if(posts.length != 0) { %>
-  <form action="/" method="post">
-    <button class="btn btn-warning resetbtn" type="submit" name="reset"> Reset </button>
-  </form>
+  <div class="container" style="text-align: center">
+    <form action="/" method="post">
+      <button class="btn btn-warning reset-btn" type="submit" name="reset"> Reset </button>
+    </form>
+  </div>
 <% } %>
 
 
