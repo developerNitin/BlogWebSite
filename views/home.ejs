@@ -1,10 +1,14 @@
-<%- include("partials/header"); -%>
+<%- include("partials/home-header"); -%>
 
 
+<div class="about-div">
+  <div class="container">
+    <h1 class="heading"> NitinBlog </h1>
+    <p><%= homeStartingContent %></p>
+  </div>
+</div>
 
-<h1 class="heading"> home </h1>
-<p><%= homeStartingContent %></p>
-
+<div class="container middle-container">
 
 <% for(var i = 0; i < posts.length; i++) { %>
 <h1 class="heading"> <%= posts[i].input %> </h1>
@@ -26,7 +30,6 @@
     <button class="btn btn-warning resetbtn" type="submit" name="reset"> Reset </button>
   </form>
 <% } %>
-
 
 
 <%- include("partials/footer"); -%>
