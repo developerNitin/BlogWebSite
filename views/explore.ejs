@@ -1,3 +1,25 @@
 <%- include("partials/explore-header"); -%>
 
+
+<% for(var i = 0; i < posts.length; i++) { %>
+<div class="">
+  <ol>
+    <li>
+      <h1 class="sub-heading"> <%= posts[i].input %> </h1>
+    </li>
+  </ol>
+</div>
+<div class="">
+  <p class="sub-para">
+    <% if(posts[i].post.length > 300) { %>
+    <%= posts[i].post.substring(0, 300) %>
+    <a href="/post/<%= posts[i].input %>">read more.</a>
+    <% } else { %>
+    <%= posts[i].post %>
+    <% } %>
+  </p>
+</div>
+<% } %>
+
+
 <%- include("partials/footer"); -%>

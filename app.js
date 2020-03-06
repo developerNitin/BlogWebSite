@@ -32,7 +32,7 @@ app.get("/", function(req, res) {
 
 app.get("/support", function(req, res) {
   res.render("support", {
-    aboutContent: aboutContent
+    aboutContent: aboutContent,
   });
 });
 
@@ -73,7 +73,9 @@ app.get("/signup", function(req, res) {
 });
 
 app.get("/explore", function(req, res) {
-  res.render("explore");
+  res.render("explore", {
+    posts: posts,
+  });
 });
 
 // ----------> app.post
