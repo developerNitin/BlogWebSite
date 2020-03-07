@@ -2,17 +2,26 @@
 
 
 <div class="explore-p-area">
+  <div class="explore-p-area-option">
+     <a class="explore-a" href="#"><span class="explore-a-dot">.</span>Explore</a>
+     <a class="explore-a" href="#"><span class="explore-a-dot">.</span>Trending</a> <br>
+     <a class="explore-a" href="#"><span class="explore-a-dot">.</span>latest</a> <br>
+     <a class="explore-a" href="#"><span class="explore-a-dot">.</span>High rated</a>
+     <a class="explore-a" href="#"><span class="explore-a-dot">.</span>Most liked</a>
+     <a class="explore-a" href="#"><span class="explore-a-dot">.</span>Most readed</a>
+  </div>
   <div class="explore-sub-area">
+    <form class="big-explore-p-search-area-form" action="/" method="post">
+      <input class="big-explore-p-search-txtarea" required type="text" name="" value="" placeholder="Search Blogs">
+      <button class="big-explore-p-search-btn" type="submit" name="button"><i class="fas fa-search"></i></button>
+    </form>
+
     <% for(var i = 0; i < posts.length; i++) { %>
     <div class="">
-      <ol>
-        <li>
-          <h1 class="sub-heading"> <%= posts[i].input %> </h1>
-        </li>
-      </ol>
+          <h1 class="explore-sub-heading">  <%= posts[i].input %> </h1>
     </div>
     <div class="">
-      <p class="sub-para">
+      <p class="explore-sub-para">
         <% if(posts[i].post.length > 300) { %>
         <%= posts[i].post.substring(0, 300) %>
         <a href="/post/<%= posts[i].input %>">read more.</a>
@@ -21,6 +30,11 @@
         <% } %>
       </p>
     </div>
+    <% if(i < posts.length - 1) { %>
+      <div class="hr">
+        <p style="color: #889593; font-size:32px; opacity: 0.5; text-align:center">. . . . .</p>
+      </div>
+    <% } %>
     <% } %>
   </div>
   <div class="explore-p-search-area">
