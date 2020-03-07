@@ -15,36 +15,43 @@ body {
 @keyframes driving {
   0% {
     left: 30%;
+    bottom: 0%;
     transform: scale(0.45) rotateZ(0deg);
   }
 
   10% {
     left: 30%;
+    bottom: 1%;
     transform: scale(0.45) rotateZ(0deg);
   }
 
   20% {
     left: 30%;
+    bottom: 2%;
     transform: scale(0.45) rotateZ(0deg);
   }
 
   25% {
     left: 30%;
+    bottom: 1%;
     transform: scale(0.45) rotateZ(0deg);
   }
 
   40% {
     left: 30%;
+    bottom: 0%;
     transform: scale(0.45) rotateZ(0deg);
   }
 
   50% {
     left: 30%;
+    bottom: 1%;
     transform: scale(0.45) rotateZ(0deg);
   }
 
   100% {
     left: 30%;
+    bottom: 0%;
     transform: scale(0.45) rotateZ(0deg);
   }
 }
