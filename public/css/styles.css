@@ -13,7 +13,7 @@ h1 {
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #848db4;
+  color: #a1a5b2;
   opacity: 1;
   /* Firefox */
 }
@@ -427,10 +427,10 @@ h1 {
   float: right;
   width: 25%;
   outline-width: medium;
-  border-radius: 2px;
-  background-color: #f9fafd;
+  border-radius: 7px;
+  background-color: #f8f8f8;
   height: 500px;
-  border: 2px solid #A8AFCA;
+  border: 2px solid #cacfdf;
 }
 
 .explore-sub-area {
@@ -448,11 +448,12 @@ h1 {
   border-style: none;
   text-align: start;
   font-size: 15px;
-  background-color: #f6f7fc;
+  border-radius: 7px;
+  background-color: #f8f8f8;
 }
 
 .explore-p-search-area-form, .big-explore-p-search-area-form {
-  border-bottom: 2px solid #A8AFCA;
+  border-bottom: 2px solid #cacfdf;
 }
 
 .explore-p-search-btn, .big-explore-p-search-btn {
@@ -492,7 +493,7 @@ h1 {
 
 .big-explore-p-search-txtarea {
   border-radius: 6px;
-  border: 2px solid #A8AFCA;
+  border: 2px solid #cacfdf;
   height: 50px;
 }
 
@@ -509,8 +510,8 @@ h1 {
 
 .explore-a:hover {
   text-decoration: none;
-  background-color: #767EA2;
-  color: white;
+  background-color: #e4e7ef;
+  color: #424874;
 }
 
 .explore-a-dot {
