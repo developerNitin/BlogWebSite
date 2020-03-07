@@ -1,7 +1,7 @@
 <%- include("partials/explore-header"); -%>
 
 
-<div class="explore-area">
+<div class="explore-p-area">
   <div class="explore-sub-area">
     <% for(var i = 0; i < posts.length; i++) { %>
     <div class="">
@@ -23,10 +23,10 @@
     </div>
     <% } %>
   </div>
-  <div class="explore-search">
-    <form class="" action="index.html" method="post">
-      <input class="explore-p-search-txtarea" type="text" name="" value="">
-      <button class="explore-p-search-btn" type="button" name="button"><i class="fas fa-search"></i></button>
+  <div class="explore-p-search-area">
+    <form class="explore-p-search-area-form" action="/" method="post">
+      <input class="explore-p-search-txtarea" required type="text" name="" value="" placeholder="Search Bloger">
+      <button class="explore-p-search-btn" type="submit" name="button"><i class="fas fa-search"></i></button>
     </form>
   </div>
 </div>
