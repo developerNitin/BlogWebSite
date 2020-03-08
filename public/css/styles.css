@@ -38,6 +38,7 @@ h1 {
 
 .middle-container {
   min-height: 320px;
+  
 }
 
 .container {
@@ -63,6 +64,7 @@ h1 {
 }
 
 .navbar {
+  background-color:#FCFCFE;
   padding-bottom: 0px;
   border: 0;
   border-radius: 0;
@@ -74,7 +76,8 @@ h1 {
 .navbar-nav li a {
   margin-top: 10px;
   padding-right: 0;
-  font-size: 10px;
+  font-size: 11px;
+  color: #ACB1C7;
 }
 
 .navbar-nav li a:hover {
@@ -104,7 +107,7 @@ h1 {
   font-family: Roboto, Arial, sans-serif;
   border-style: none;
   background-color: inherit;
-  color: #767EA2;
+  color: #767ea2;
   letter-spacing: 1px;
   float: right;
 }
@@ -115,7 +118,7 @@ h1 {
 
 .btn-signin:hover {
   background-color: inherit;
-  color: #5C627E;
+  color: #3B3F51;
 }
 
 .btn-li {
@@ -124,7 +127,7 @@ h1 {
 
 /* :------> home */
 .about-div {
-  background-color: rgb(248, 248, 248);
+  background-color: #FCFCFE;
 }
 
 .heading {
@@ -184,7 +187,7 @@ h1 {
 
 /* :------> signin */
 .form-signin {
-  background-color: #f6f7fc;
+  background-color: #FCFCFE;
   max-width: 400px;
   padding: 40px 55px 55px 55px;
   margin: 150px auto 188px auto !important;
@@ -293,7 +296,7 @@ h1 {
 }
 
 .form-signup {
-  background-color: #f6f7fc;
+  background-color: #FCFCFE;
   max-width: 400px;
   height: 349px;
   padding: 40px 55px 75px 55px;
@@ -467,7 +470,7 @@ h1 {
   width: 25%;
   outline-width: medium;
   border-radius: 7px;
-  background-color: #f8f8f8;
+  background-color:#FCFCFE;
   height: 500px;
   /* border: 2px solid #cacfdf; */
   box-shadow: #cacfdf 0px 0px 5px 2px;
@@ -489,7 +492,7 @@ h1 {
   text-align: start;
   font-size: 15px;
   border-radius: 7px;
-  background-color: #f8f8f8;
+  background-color: #FCFCFE;
 }
 
 .explore-p-search-area-form {
