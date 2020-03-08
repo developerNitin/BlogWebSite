@@ -37,7 +37,7 @@ h1 {
 }
 
 .middle-container {
-  min-height: 297px;
+  min-height: 320px;
 }
 
 .container {
@@ -47,7 +47,7 @@ h1 {
 
 /* :------> navbar */
 .N {
-  color: blue !important;
+  color: #767ea2 !important;
 }
 
 .B {
@@ -158,9 +158,10 @@ h1 {
   border-radius: 20px;
   text-align: start;
   font-size: 15px;
-  border: 2.5px solid #cacfdf;
+  box-shadow: #cacfdf 0px 0px 3px 2px;
   padding-left: 15px;
   outline-width: medium;
+  border: none;
 }
 
 .explore-txtarea:focus {
@@ -186,7 +187,7 @@ h1 {
   background-color: #f6f7fc;
   max-width: 400px;
   padding: 40px 55px 55px 55px;
-  margin: 121px auto 194px auto !important;
+  margin: 150px auto 188px auto !important;
   box-shadow: #cacfdf 0px 0px 4px 2px;
 }
 
@@ -296,7 +297,7 @@ h1 {
   max-width: 400px;
   height: 349px;
   padding: 40px 55px 75px 55px;
-  margin: 121px auto 190px auto !important;
+  margin: 150px auto 184px auto !important;
   box-shadow: #cacfdf 0px 0px 4px 2px;
 }
 
@@ -327,40 +328,62 @@ h1 {
 .publish-btn, .reset-btn {
   font-size: 14px;
   font-family: Roboto, Arial, sans-serif;
-  border: 2px solid #cacfdf;
+  box-shadow: #cacfdf 0px 0px 4px 2px;
   background-color: #fff;
   color: #848DB4;
   border-radius: 2px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin: 73px auto 74px auto;
-  height: 45px;
-  width: 110px;
+  height: 40px;
+  width: 95px;
   border-radius: 100px;
   font-weight: bold;
+}
+
+.reset-btn {
+  width: 80px;
+}
+
+.reset-btn {
+  border-color: white;
+}
+.reset-btn:hover {
+  border-color: #f0ad4e;
+  box-shadow: none;
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.reset-btn:focus {
+
 }
 
 .publish-btn:hover {
   background-color: #a6b1e1;
   color: white;
-  border-color: #fff;
 }
 
 .input {
   border-radius: 100px;
-  border-color: #848DB4;
+  box-shadow: #cacfdf 0px 0px 4px 2px;
   height: 50px;
   margin: 40px 0;
+  border-color:#FCFCFE;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .post {
-  border-color: #848DB4;
+  box-shadow: #cacfdf 0px 0px 4px 2px;
+  border-color:#FCFCFE;
+  padding: 20px;
 }
 
 /* -------> reset */
 .reset-form-div {
   text-align: center;
-  margin-top: 79px;
-  margin-bottom: 158px;
+  margin-top: 95px;
+  margin-bottom: 162px;
 }
 
 .reset-form-div i {
@@ -488,10 +511,10 @@ h1 {
   margin-left: -35px;
 }
 
-.explore-p-search-btn:focus, .big-explore-p-search-btn:hover {
+/* .explore-p-search-btn:focus, .big-explore-p-search-btn:hover {
   border-color: #916dd5;
   box-shadow: 5px 5px 10px #916dd5;
-}
+} */
 
 .explore-p-search-btn:hover {
   color: #848db4;

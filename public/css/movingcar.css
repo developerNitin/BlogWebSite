@@ -10,49 +10,50 @@
  } */
 body {
   overflow: hidden;
+  background-color: #eff0f5 ;
 }
 
 @keyframes driving {
   0% {
     left: 30%;
-    bottom: 0%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -8%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 
   10% {
     left: 30%;
-    bottom: 1%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -10%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 
   20% {
     left: 30%;
-    bottom: 2%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -8%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 
   25% {
     left: 30%;
-    bottom: 1%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -9%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 
   40% {
     left: 30%;
-    bottom: 0%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -10%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 
   50% {
     left: 30%;
-    bottom: 1%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -9%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 
   100% {
     left: 30%;
-    bottom: 0%;
-    transform: scale(0.45) rotateZ(0deg);
+    bottom: -8%;
+    transform: scale(0.3) rotateZ(0deg);
   }
 }
 
@@ -71,7 +72,6 @@ body {
 /*   CAR CONTAINER   */
 .car-container {
   position: absolute;
-  bottom: 0%;
   width: 430px;
   height: 300px;
   animation: driving 5s infinite linear;
@@ -235,10 +235,10 @@ body {
 
 .road {
     width: 250%;
-    height: 150px;
+    height: 80px;
     background-color: #42465A;
     border-top: 10px solid #636A87;
-    border-bottom: 20px solid #535870;
+    border-bottom: 10px solid #535870;
     position: absolute;
     bottom: 0%;
     margin-left: -10px;
@@ -258,9 +258,9 @@ body {
     width: 250%;
     position: absolute;
     left: -10%;
-    top: 30px;
-    border-top: 25px dashed #EDEFF9;
-    margin-top: 15px;
+    top: 25px;
+    border-top: 10px dashed #EDEFF9;
+    margin-top: 0px;
     animation: road-moving 10s infinite linear;
     /* transition: all 5s linear; */
 }
@@ -268,7 +268,7 @@ body {
   width: 80px;
   height: 200px;
   position: absolute;
-  bottom: 205px;
+  bottom: 155px;
   padding: 0;
   left: 100%;
   animation: road-moving 10s infinite linear;
