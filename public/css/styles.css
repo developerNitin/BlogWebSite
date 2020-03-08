@@ -186,8 +186,8 @@ h1 {
   background-color: #f6f7fc;
   max-width: 400px;
   padding: 40px 55px 55px 55px;
-  margin: 121px auto 190px auto !important;
-  border: 2px solid #CDCFDD;
+  margin: 121px auto 194px auto !important;
+  box-shadow: #cacfdf 0px 0px 4px 2px;
 }
 
 .form-signin .checkbox {
@@ -272,7 +272,23 @@ h1 {
 }
 
 .form-control:focus {
-  box-shadow: 0 0 5px #916dd5;
+  box-shadow: #cacfdf 0px 0 3px 2px;
+}
+
+.signup-top {
+  border-bottom: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.signup-middle {
+  border-radius: 0px;
+}
+
+.signup-bottom {
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .form-signup {
@@ -281,7 +297,7 @@ h1 {
   height: 349px;
   padding: 40px 55px 75px 55px;
   margin: 121px auto 190px auto !important;
-  border: 2px solid #CDCFDD;
+  box-shadow: #cacfdf 0px 0px 4px 2px;
 }
 
 .form-signup-heading {
@@ -415,7 +431,7 @@ h1 {
   padding-left: 30px;
   margin-right: 0;
   margin-left: 0;
-  box-shadow: #cacfdf 0px 3px 2px 0px;
+  box-shadow: #cacfdf 0px 0px 5px 2px;;
 }
 
 .explore-p-area {
@@ -430,7 +446,8 @@ h1 {
   border-radius: 7px;
   background-color: #f8f8f8;
   height: 500px;
-  border: 2px solid #cacfdf;
+  /* border: 2px solid #cacfdf; */
+  box-shadow: #cacfdf 0px 0px 5px 2px;
 }
 
 .explore-sub-area {
@@ -452,8 +469,12 @@ h1 {
   background-color: #f8f8f8;
 }
 
-.explore-p-search-area-form, .big-explore-p-search-area-form {
-  border-bottom: 2px solid #cacfdf;
+.explore-p-search-area-form {
+  box-shadow: #cacfdf 0px 1px 4px 1px;
+  border-radius: 7px;
+}
+
+.big-explore-p-search-area-form {
 }
 
 .explore-p-search-btn, .big-explore-p-search-btn {
@@ -493,7 +514,7 @@ h1 {
 
 .big-explore-p-search-txtarea {
   border-radius: 6px;
-  border: 2px solid #cacfdf;
+  box-shadow: #cacfdf 0px 0px 5px 2px;
   height: 50px;
 }
 
@@ -505,7 +526,7 @@ h1 {
 .explore-a {
   display: block;
   color: grey;
-  padding-bottom: 5px;
+  padding-bottom: 9px;
 }
 
 .explore-a:hover {
