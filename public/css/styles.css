@@ -38,7 +38,7 @@ h1 {
 
 .middle-container {
   min-height: 320px;
-  
+
 }
 
 .container {
@@ -264,11 +264,8 @@ h1 {
   color: white;
 }
 
-.remember-me-btn {
-  color: red;
-}
-
 /* :------> signup */
+
 .form-control {
   border-color: #848DB4;
   height: 42px;
